@@ -1,5 +1,18 @@
 <template>
-  <div class="admin">
-    <h1>This is an ADMIN page</h1>
-  </div>
+	<OrdersTable
+		class="admin__table"
+	/>
 </template>
+
+<script setup>
+import OrdersTable from "@/components/OrdersTable.vue";
+</script>
+
+<style lang="scss" scoped>
+.admin {
+	&__table {
+		margin: 0 auto;
+		max-width: 80%;
+	}
+}
+</style>

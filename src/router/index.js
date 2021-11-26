@@ -9,7 +9,4 @@ const router = createRouter({
 	routes,
 });
 
-const START = router.resolve("/");
-router.replace(START);
-
 export default router;
